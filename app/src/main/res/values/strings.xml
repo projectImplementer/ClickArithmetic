@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">ClickArithmetic</string>
+    <string name="calculatebtn">btnCalculate</string>
+    <string name="second_page">Second Page! Hello</string>
 </resources>
