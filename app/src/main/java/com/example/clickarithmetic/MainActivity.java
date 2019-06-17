@@ -16,12 +16,11 @@ public class MainActivity extends AppCompatActivity {
 
     public void onClick(View v){
         goToSecondPage();
-
     }
 
 
     public void goToSecondPage(){
-        Intent openSecondPage = new Intent(this, SecondActivity.class );
+        Intent openSecondPage = new Intent(this, SecondActivity.class);
         startActivity(openSecondPage);
     }
 

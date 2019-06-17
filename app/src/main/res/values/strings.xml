@@ -2,4 +2,7 @@
     <string name="app_name">ClickArithmetic</string>
     <string name="calculatebtn">btnCalculate</string>
     <string name="second_page">Second Page! Hello</string>
+    <string name="number1">firstNumber</string>
+    <string name="number2">secondNumber</string>
+    <string name="inputNumbers">Input numbers:</string>
 </resources>
