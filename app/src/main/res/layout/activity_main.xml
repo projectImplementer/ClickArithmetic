@@ -29,18 +29,16 @@
         android:id="@+id/textView5"
         android:layout_width="160dp"
         android:layout_height="21dp"
-        android:layout_marginStart="32dp"
-        android:layout_marginLeft="32dp"
         android:layout_marginTop="109dp"
         android:text="Input numbers:"
-        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="32dp"
         tools:text="@string/inputNumbers" />
 
     <EditText
         android:id="@+id/nr1"
-        android:layout_width="106dp"
-        android:layout_height="33dp"
+        android:layout_width="108dp"
+        android:layout_height="49dp"
         android:layout_marginStart="32dp"
         android:layout_marginLeft="32dp"
         android:layout_marginTop="40dp"
@@ -51,10 +49,10 @@
 
     <EditText
         android:id="@+id/nr2"
-        android:layout_width="110dp"
-        android:layout_height="33dp"
-        android:layout_marginStart="16dp"
-        android:layout_marginLeft="16dp"
+        android:layout_width="111dp"
+        android:layout_height="49dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="20dp"
         android:layout_marginTop="40dp"
         android:ems="10"
         android:inputType="numberDecimal"
