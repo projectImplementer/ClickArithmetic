@@ -18,7 +18,7 @@ public class MainActivity extends AppCompatActivity {
         goToSecondPage();
     }
 
-//TODO: pass parameter to second page
+//TODO: pass parameter to second page somePage
     public void goToSecondPage(){
         Intent openSecondPage = new Intent(this, SecondActivity.class);
         startActivity(openSecondPage);
