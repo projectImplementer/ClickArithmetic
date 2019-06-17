@@ -8,6 +8,8 @@ import android.view.View;
 import android.widget.EditText;
 import android.widget.NumberPicker;
 
+import java.util.Scanner;
+
 public class MainActivity extends AppCompatActivity {
 
     private EditText number1;
@@ -35,6 +37,19 @@ public class MainActivity extends AppCompatActivity {
         startActivity(openSecondPage);
     }
 
+    Integer num1;
+    Integer num2;
+    char operator;
+    double answer = 0.0;
+
+    Scanner scanObject = new Scanner(System.in);  // create Scanner type object.
+    public void numberOneInput() {
+
+       // Scanner scanObject = new Scanner(System.in);  // create Scanner type object.
+
+        //System.out.println("The value of x is: ");
+        num1 = scanObject.nextInt(); // the terminal waits for user input for num1.
+    }
 
 
 }
