@@ -16,7 +16,7 @@
         android:layout_marginEnd="162dp"
         android:layout_marginRight="162dp"
         android:layout_marginBottom="168dp"
-        android:onClick="onClick"
+        android:onClick="ShowData_Click"
         android:text="SHOW DATA"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -38,7 +38,7 @@
         tools:text="@string/inputNumbers" />
 
     <EditText
-        android:id="@+id/editText2"
+        android:id="@+id/nr1"
         android:layout_width="106dp"
         android:layout_height="33dp"
         android:layout_marginStart="32dp"
@@ -50,7 +50,7 @@
         app:layout_constraintTop_toBottomOf="@+id/textView5" />
 
     <EditText
-        android:id="@+id/editText3"
+        android:id="@+id/nr2"
         android:layout_width="110dp"
         android:layout_height="33dp"
         android:layout_marginStart="16dp"
@@ -58,7 +58,7 @@
         android:layout_marginTop="40dp"
         android:ems="10"
         android:inputType="numberDecimal"
-        app:layout_constraintStart_toEndOf="@+id/editText2"
+        app:layout_constraintStart_toEndOf="@+id/nr1"
         app:layout_constraintTop_toBottomOf="@+id/textView5" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
