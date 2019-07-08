@@ -6,57 +6,68 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <Button
-        android:id="@+id/button"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="162dp"
-        android:layout_marginLeft="162dp"
+    <RelativeLayout
+        android:layout_width="398dp"
+        android:layout_height="295dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
         android:layout_marginTop="8dp"
-        android:layout_marginEnd="162dp"
-        android:layout_marginRight="162dp"
-        android:layout_marginBottom="168dp"
-        android:onClick="ShowData_Click"
-        android:text="SHOW DATA"
+        android:layout_marginEnd="6dp"
+        android:layout_marginRight="6dp"
+        android:layout_marginBottom="405dp"
+        android:background="#BE000000"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.674" />
+        app:layout_constraintVertical_bias="1.0">
 
-    <TextView
-        android:id="@+id/textView5"
-        android:layout_width="160dp"
-        android:layout_height="21dp"
-        android:layout_marginTop="109dp"
-        android:text="Input numbers:"
-        app:layout_constraintTop_toTopOf="parent"
-        tools:layout_editor_absoluteX="32dp"
-        tools:text="@string/inputNumbers" />
+        <Button
+            android:id="@+id/button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="162dp"
+            android:layout_marginLeft="162dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="162dp"
+            android:layout_marginRight="162dp"
+            android:layout_marginBottom="168dp"
+            android:onClick="ShowData_Click"
+            android:text="SHOW DATA"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.674" />
 
-    <EditText
-        android:id="@+id/nr1"
-        android:layout_width="108dp"
-        android:layout_height="49dp"
-        android:layout_marginStart="32dp"
-        android:layout_marginLeft="32dp"
-        android:layout_marginTop="40dp"
-        android:ems="10"
-        android:inputType="numberDecimal"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView5" />
+        <EditText
+            android:id="@+id/nr1"
+            android:layout_width="329dp"
+            android:layout_height="89dp"
+            android:ems="10"
+            android:inputType="numberDecimal"
+            tools:layout_editor_absoluteX="64dp"
+            tools:layout_editor_absoluteY="204dp" />
 
-    <EditText
-        android:id="@+id/nr2"
-        android:layout_width="111dp"
-        android:layout_height="49dp"
-        android:layout_marginStart="20dp"
-        android:layout_marginLeft="20dp"
-        android:layout_marginTop="40dp"
-        android:ems="10"
-        android:inputType="numberDecimal"
-        app:layout_constraintStart_toEndOf="@+id/nr1"
-        app:layout_constraintTop_toBottomOf="@+id/textView5" />
+        <EditText
+            android:id="@+id/nr2"
+            android:layout_width="306dp"
+            android:layout_height="101dp"
+            android:layout_alignStart="@+id/nr1"
+            android:layout_alignLeft="@+id/nr1"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginStart="41dp"
+            android:layout_marginLeft="41dp"
+            android:layout_marginEnd="50dp"
+            android:layout_marginRight="50dp"
+            android:ems="10"
+            android:inputType="numberDecimal"
+            tools:layout_editor_absoluteX="98dp"
+            tools:layout_editor_absoluteY="95dp" />
+
+    </RelativeLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
