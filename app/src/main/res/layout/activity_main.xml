@@ -62,15 +62,14 @@
 
     <RelativeLayout
         android:id="@+id/relativeLayout"
-        android:layout_width="327dp"
-        android:layout_height="630dp"
+        android:layout_width="87dp"
+        android:layout_height="243dp"
         android:layout_marginStart="38dp"
         android:layout_marginLeft="38dp"
         android:layout_marginEnd="38dp"
         android:layout_marginRight="38dp"
         android:background="#85000000"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         tools:layout_editor_absoluteY="36dp"></RelativeLayout>
 

@@ -43,6 +43,24 @@ public class MainActivity extends AppCompatActivity {
         goToSecondPage();
     }
 
+    @SuppressLint("DefaultLocale")
+    public void ShowData_Click2(View v) {
+        number1 = findViewById(R.id.nr1);
+        number2 = findViewById(R.id.nr2);
+
+        result = Double.valueOf(number1.getText().toString()) + Double.valueOf(number2.getText().toString());
+
+        if (result == (int) result)
+            strResult = String.format("%d", (int) result);
+        else
+            strResult = String.format("%s", result);
+
+        Toast.makeText(getApplicationContext(), strResult,
+                Toast.LENGTH_LONG).show();
+
+        goToSecondPage();
+    }
+
 //TODO: pass parameter to second page
     public void goToSecondPage()
     {
